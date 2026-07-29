@@ -1,3 +1,9 @@
+body{
+  background-color: green;
+}
+
+
+
 #transition-container {
   width: 100vw;
   height: 100vh;
@@ -6,6 +12,7 @@
   justify-content: center;
   align-items: center;
   font-family: Arial, sans-serif;
+  transition: transform 0.2s ease-in-ou;
 }
 
 button {
@@ -16,4 +23,10 @@ button {
   font-size: 18px;
   padding: 16px 24px;
   text-align: center;
+  transform: scale(1.1);
+}
+
+.btn:hover {
+  transform: scale(1.3);
+
 }
